@@ -1,5 +1,14 @@
 ### 视频转码为H264
 
+### 项目运行
+```shell
+npm install
+
+npm run dev
+
+npm run serve
+```
+
 #### 电脑系统有ffmpeg的情况，比如服务器部署
 ```ts
 import ffmpeg from "ffmpeg";
