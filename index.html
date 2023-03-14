@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.png">
+    <title>视频H264转码</title>
+</head>
+<body>
+    <div style="font-size: 20px;margin: 20px auto;">上传需要转码视频：</div>
+    <input type="file" id="input" />  <div style="display: none;" id="loading">上传中...</div>
+
+    <div style="font-size: 20px;margin: 20px auto;">转码前的视频：</div>
+    <video controls id="originVideo"></video>
+
+    <div style="font-size: 20px;margin: 20px auto;">转码后的视频：</div>
+    <video controls id="resultVideo"></video>
+
+    <script type="module" src="/src/web/main.ts"></script>
+</body>
+</html>
